@@ -23,6 +23,7 @@ export default function Register({ token }) {
     }
 
     const register = async (req, res) => {
+        console.log('hello: ')
         try {
             let result = await axios.post(`${config.URL}/register`,
                 { username, email, password })

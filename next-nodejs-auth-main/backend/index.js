@@ -1,7 +1,7 @@
 const express = require('express'),
     app = express(),
     passport = require('passport'),
-    port = process.env.PORT || 80,
+    port = process.env.PORT || 4000,
     cors = require('cors'),
     cookie = require('cookie')
 
