@@ -1,5 +1,5 @@
 .container {
-    background-color: rgba(245, 59, 96, 0.8);
+    background-color: rgba(246, 240, 241, 0.8);
     min-height: 100vh;
     padding: 0 0.5rem;
     display: flex;
@@ -7,6 +7,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 100%;
+    height: auto;
 }
 
 .content {
@@ -58,3 +60,9 @@
     margin-right: center; 
     margin-left: center; 
  }
+ .contai {
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
