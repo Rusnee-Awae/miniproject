@@ -5,7 +5,6 @@ import Navbar from '../components/navbar'
 import styles from '../styles/Home.module.css'
 import axios from 'axios'
 import config from '../config/config'
-
 export default function Login({ token }) {
 
     const [username, setUsername] = useState('')

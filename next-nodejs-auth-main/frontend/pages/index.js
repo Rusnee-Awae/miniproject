@@ -1,25 +1,55 @@
 import Head from 'next/head' 
-import Layout from '../components/layout' 
 import Navbar from '../components/navbar'
 import styles from '../styles/Home.module.css'
-
+import 'next/image'
 export default function Home({ token }) {
  
   return (
-    
-    <Layout>
     <div className={styles.container}>
-        <Navbar />
-        <div className = {styles.maincard}>
-        <h1>Pizza Restaurant in Newyork</h1>
-
+      <Head>
+      <Navbar />
+        <div className = {styles.center}>
+        <h1 >Pizza Restaurant in Newyork</h1>
         </div>
-        
-        </div>
-</Layout>
+<body>
 
+  
+
+<div class= {styles.center}>
+<p><img src="img/pizza.png" alt='img'></img></p>
+Title of image <br></br>
+</div>
+
+<div class= "Box">
+<p><img src="img/pizza.png" alt='img'></img></p>
+Title of image <br></br>
+
+</div>
+
+<div class= "Box">
+<p><img src="img/pizza.png" alt='img'></img></p>
+Title of image <br></br>
+
+</div>
+
+<div class= "Box">
+<p><img src="img/pizza.png" alt='img'></img></p>
+Title of image <br></br>
+
+</div>
+
+<ul>
+  <li><a data-email="johndoe@example.com" href="mailto:johndoe@example.com">ติดต่อ</a></li>
+</ul>
+
+</body>
+      </Head>
+        </div>
   )
+  
+  
 }
+
 
 export function getServerSideProps({ req, res }) {
   // console.log("token from cookie: ",cookie.get("token")) 
