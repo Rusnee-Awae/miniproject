@@ -10,29 +10,77 @@ export default function Home({ token }) {
       <Head>
       <Navbar />
         <div className = {styles.center}>
-        <h1 >เปิดโลกพิซซ่า! สิ่งที่คุณอาจจะไม่รู้ เกี่ยวกับ 9 หน้า พิซซ่ายอดฮิต</h1>
+        <h1 >Open a tourist attraction in Thailand.</h1>
         </div>
 <body>
-<div className={styles.container}>
+<div className={styles.center}>
       <div className={styles.container} style={{ left: 0 }} onClick={()=>handleArrow("l")}>
-        <img src="/img/make.jpg" alt="" layout="fill" objectFit="contain"/>
-        พิซซ่าหน้ามาเกอริต้า : ณ ประเทศอิตาลี ในปี คศ.1890 ชายที่ชื่อ ราฟาเอล แอสโปสิโต้ ได้ทำพิซซ่านี้ไปถวายพระราชินีมาเกอริต้า โดยหน้าบนพิซซ่านั้นเป็นสัญลักษณ์สีของธงประเทศอิตาลี โดยใช้ใบเบซิลแทนสีเขียว มอสซาเรลล่าชีสแทนสีขาว และมะเขือเทศแทนสีแดง ถือว่าพิซซ่าหน้านี้เป็นพิซซ่าที่เก่าแก่และเป็นพิซซ่าหน้าแรกของโลกเลยแหละ <br></br>
-      </div>
-      <div className={styles.container} style={{ right: 0 }} onClick={()=>handleArrow("r")}>
-        <img src="/img/hawa.jpg" layout="fill" alt="" objectFit="contain"/>
-        พิซซ่าหน้าฮาวายเอี้ยน : พิซซ่าหน้านี้ถูกคิดขึ้นจากประเทศแคนาดา ในปี คศ.1962 โดย แซม พาโนพาโอลัส ในร้านที่มีชื่อว่า Satellite Restaurant จากความสำเร็จในร้านอาหารเล็กๆ กลายเป็นความสำเร็จที่ยิ่งใหญ่ เพราะตอนนี้เวลาสั่งพิซซ่าทีไร ใครๆ ก็สั่งแต่หน้าฮาวายเอี้ยนๆ <br></br>
+      <div className = {styles.center}>
+        <h1 >ICONSIAM ไอคอนสยาม</h1>
+        </div> 
+        <img src="/img/icon.jpg" alt="" layout="fill" objectFit="contain"/>
+        ที่เที่ยวกรุงเทพฯ ริมแม่น้ำเจ้าพระยา ไอคอนสยาม อภิมหาโครงการเมือง ที่ตอบโจทย์ทุกไลฟ์สไตล์ที่นำเสนอในรูปแบบของความวิจิตรล้ำสมัย การตกแต่งของไอคอนสยามนั้น เกิดจากทำงานร่วมกับศิลปินแห่งชาติ และศิลปินระดับโลกมากมาย ร่วมกันถ่ายทอดเรื่องราวต่างๆ ของความเป็นไทย ลงในประติมากรรมชิ้นเอกน่าตื่นตาตื่นใจที่จัดแสดงอยู่ทั่วอาคารค่ะ
+        ที่อยู่ : 299 ซอยเจริญนคร 5 ถนนเจริญนคร เขตคลองสาน กรุงเทพฯ พิกัด : https://goo.gl/maps/MCtUYcJRU3qSW9vY7 เปิดให้เข้าชม : 10.00-22.00 น.
+        โทร : 0-2495-7000 เว็บไซต์ : https://www.facebook.com/ICONSIAM
+        <br></br>
       </div>
     </div>
-    <div className={styles.container} style={{ right: 0 }} onClick={()=>handleArrow("r")}>
-        <img src="/img/waja.jpg" layout="fill" alt="" objectFit="contain"/>
-        พิซซ่าหน้าวาเจเทเรียน : นี่เป็นพิซซ่าที่ถูกคิดค้นมาเพื่อคนทานมังสวิรัติโดยเฉพาะ เป็นหน้าที่มีผักหลากหลายชนิด ไม่ใช่แค่เหมาะกับคนทานมังสวิรัติอย่างเดียวแต่เหมาะกับคนรักสุขภาพด้วย <br></br>
+    <div className={styles.center}>
+      <div className={styles.container} style={{ left: 0 }} onClick={()=>handleArrow("l")}>
+      <div className = {styles.center}>
+        <h1 >มหานคร สกายวอล์ค King Power Mahanakhon</h1>
+        </div> 
+        <img src="/img/king.jpg" alt="" layout="fill" objectFit="contain"/>
+        มหานคร สกายวอล์ค (Mahanakhon Skywalk) บนชั้น 78 ของตึก คิง เพาเวอร์ มหานคร (King Power Mahanakhon)       เราสามารถมองเห็นวิวพาโรนามา ของเมืองกรุงเทพมหานคร ได้รอบ 360 องศา เราแนะนำว่าให้เดินทางมาที่นี่ในช่วงเวลา 17.00 น. เพราะทุกคนจะสามารถมองเห็นวิว และท้องฟ้าจากด้านบน ทั้งก่อนพระอาทิตย์ตกดิน ไปจนถึงช่วงเวลาพระอาทิตย์ตกดินไปแล้ว นั่นเอง<br></br>
+      </div>
+      </div>
+     
+      <div className={styles.center}>
+      <div className={styles.container} style={{ left: 0 }} onClick={()=>handleArrow("l")}>
+      <div className = {styles.center}>
+        <h1 >ฮาราจูกุ ไทยแลนด์ Harajuku Thailand</h1>
+        </div> 
+        <img src="/img/hara.jpg" alt="" layout="fill" objectFit="contain"/>
+        ใครที่โหยหาการไป เที่ยวญี่ปุ่น ตามมาเช็คอินกันได้ที่ ฮาราจูกุ ไทยแลนด์ Harajuku Thailand 
+        ที่เที่ยวกรุงเทพฯ ย่านสุวินทวงศ์ เหมือนวาร์ปไปเดินอยู่ใจกลางญี่ปุ่นกันเลยทีเดียว โดยถูกเนรมิตให้เป็น หมู่บ้านญี่ปุ่นสุดคลาสสิค ที่เหมือนกับยุคเอโดะซึ่งเต็มไปด้วยบรรยากาศ และกลิ่นอายแบบญี่ปุ่นแท้ๆ อีกทั้งยังมีกิมมิกน่ารักๆ คือ ร้านบริการเช่าชุดยูกาตะ และกิโมโน ครบเซ็ต ให้ใส่เดินเล่นถ่ายรูปกันแบบจัดเต็มไปเลยค่ะ!
+        ที่อยู่ : สุวินทวงศ์ 110 แขวงกระทุ่มราย เขตหนองจอก กรุงเทพฯ พิกัด : https://goo.gl/maps/FmZ56iZKjnkDFANp7
+        เปิดให้เข้าชม : วันจันทร์ - พฤหัสบดี 10.30-21.00 น. โทร : 08-8928-6154 เว็บไซต์ :  http://www.facebook.com/harajukuth
+        <br></br>
+      </div>
+      </div>
+      
+      <div className={styles.center}>
+      <div className={styles.container} style={{ left: 0 }} onClick={()=>handleArrow("l")}>
+      <div className = {styles.center}>
+        <h1 >ICONSIAM ไอคอนสยาม</h1>
+        </div> 
+        <img src="/img/icon.jpg" alt="" layout="fill" objectFit="contain"/>
+        ที่เที่ยวกรุงเทพฯ ริมแม่น้ำเจ้าพระยา ไอคอนสยาม อภิมหาโครงการเมือง ที่ตอบโจทย์ทุกไลฟ์สไตล์ที่นำเสนอในรูปแบบของความวิจิตรล้ำสมัย การตกแต่งของไอคอนสยามนั้น เกิดจากทำงานร่วมกับศิลปินแห่งชาติ และศิลปินระดับโลกมากมาย ร่วมกันถ่ายทอดเรื่องราวต่างๆ ของความเป็นไทย ลงในประติมากรรมชิ้นเอกน่าตื่นตาตื่นใจที่จัดแสดงอยู่ทั่วอาคารค่ะ
+        ที่อยู่ : 299 ซอยเจริญนคร 5 ถนนเจริญนคร เขตคลองสาน กรุงเทพฯ พิกัด : https://goo.gl/maps/MCtUYcJRU3qSW9vY7 เปิดให้เข้าชม : 10.00-22.00 น.
+        โทร : 0-2495-7000 เว็บไซต์ : https://www.facebook.com/ICONSIAM
+        <br></br>
+      </div>
       </div>
 
-      <div className={styles.container} style={{ right: 0 }} onClick={()=>handleArrow("r")}>
-        <img src="/img/fi.jpg" layout="fill" alt="" objectFit="contain"/>
-        พิซซ่าหน้าปลาแอนโชวี่และมะกอกดำ : พิซซ่าสไตล์อิตาเลียนแท้เหมาะกับคนที่ชอบทานปลาเค็ม เพราะ ปลาแอนโชวี่จะให้รสเค็ม ทานคู่กับมะกอกดำที่มีให้รสเฝื่อน บวกกับซอสมะเขือเทสเข้มข้นยิ่งทำให้รสชาติเข้ากันอย่างลงตัว<br></br>
+
+      <div className={styles.center}>
+      <div className={styles.container} style={{ left: 0 }} onClick={()=>handleArrow("l")}>
+      <div className = {styles.center}>
+        <h1 >The Commons ศาลาแดง</h1>
+        </div> 
+        <img src="/img/Commons.jpg" alt="" layout="fill" objectFit="contain"/>
+         จากทองหล่อ ก็ต้องไม่พลาดพูดถึงที่นี่กันต่อเลยค่ะกับ คอมมูนิตี้แห่งใหม่ The Commons ศาลาแดง 
+         ที่เที่ยวใหม่กรุงเทพฯ แหล่งรวมนัดพบปะของคนชิคๆ เต็มไปด้วยร้านอาหาร คาเฟ่ เจ้าดังกันทั้งนั้นเลยค่ะ แถมเดินทางไปก็ไม่ยากด้วย BTS ลงสถานีศาลาแดง หรือ MRT สีลม เท่านั้นเอง
+         ที่อยู่ : ศาลาแดงซอย 1 ถนนสีลม เขตบางรัก กรุงเทพฯ พิกัด : https://goo.gl/maps/5gcgksYcRkZZyBqi7
+        เปิดให้เข้าชม : 11.00-22.00 น. โทร : -  เว็บไซต์ : https://www.facebook.com/thecommonssaladaeng
+        <br></br>
       </div>
-  
+      </div>
+
+
+
+
+
 
 <ul>
   <li className={styles.contai}><a data-email="johndoe@example.com" href="mailto:johndoe@example.com">ติดต่อ</a></li>

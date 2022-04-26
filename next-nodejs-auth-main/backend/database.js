@@ -9,7 +9,6 @@ let users = {
 
 const SECRET = 'your_jwt_secret'
 const NOT_FOUND = -1
-
 exports.users = users 
 exports.SECRET = SECRET
 exports.NOT_FOUND = NOT_FOUND
