@@ -77,15 +77,15 @@ export default function Home({ token }) {
       </div>
       </div>
 
-
-
-
-
-
-<ul>
-  <li className={styles.contai}><a data-email="johndoe@example.com" href="mailto:johndoe@example.com">ติดต่อ</a></li>
-</ul>
-
+      <div className={styles.center}>
+      <div className={styles.container} style={{ left: 0 }} onClick={()=>handleArrow("l")}>
+             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+   ติดต่อสอบถามเพิ่มเติม  กดลิงค์ด้านล่าง
+  </button>
+    <li><a class={styles.contai} href="https://www.facebook.com/">facebook : Bot noi</a></li>
+    <li><a class={styles.contai} href="https://www.instagram.com/pimtha/?hl=th"> Instagram : bill_kill</a></li>
+      </div>
+      </div>
 </body>
       </Head>
         </div>

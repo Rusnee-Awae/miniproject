@@ -74,11 +74,11 @@ export default function Register({ token }) {
 
 
     return (
-        <Layout>
+        <Layout >
             <Head>
                 <title>Register</title>
             </Head>
-            <div className={styles.container}>
+            <div className={styles.aside}>
                 <Navbar />
                 <h1>Register</h1>
                 <div><b>Token:</b> {token.substring(0, 15)}...
@@ -90,7 +90,7 @@ export default function Register({ token }) {
                 <br />
             Status:  {status}
                 <br /><br />
-                <div className={styles.content}>
+                <div className={styles.divv}>
                     {registerForm()}
                 </div>
 
